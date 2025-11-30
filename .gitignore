@@ -1,0 +1,94 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pylint.d
+.pytest_cache/
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# -------------------------
+# ADK / MCP / Tooling
+# -------------------------
+# ADK agent logs
+/tmp/agents_log/
+*.log
+
+# ADK build artifacts
+.adk/
+*.adkstate
+
+# Cache for MCP or your own cache
+.cache/
+mcp_cache/
+
+# STDIO pipe artifacts
+fifo-*
+
+# -------------------------
+# Environment variables
+# -------------------------
+# DO NOT push sensitive keys
+.env
+.env.*
+*.key
+*.secret
+*.token
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ubuntu / Linux
+*.swp
+*.swo
+*~
+
+# -------------------------
+# IDE / Editors
+# -------------------------
+# VSCode
+.vscode/
+.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# -------------------------
+# Tests / Coverage
+# -------------------------
+htmlcov/
+coverage.xml
+*.cover
+*.coverage
+.cache/
+tests/__pycache__/
+
+# -------------------------
+# Project-specific ignores
+# -------------------------
+# TMDB responses cached locally (if you ever write them)
+tmdb_cache.json
+
+# Any temporary debug files
+debug_*.json
